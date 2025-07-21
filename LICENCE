@@ -1,0 +1,108 @@
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+
+**DevOps Learning Journey Repository**  
+Copyright (c) 2025 [Shubhadeep Bhowmik]
+
+## You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+## Under the following terms:
+
+### 📝 Attribution
+You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**Required Attribution Format:**
+```
+Original work by SHUBHADEEPXT
+Source: https://github.com/SHUBHADEEPXT/Notes-and-Learnings
+Licensed under CC BY-NC-SA 4.0
+```
+
+### 🚫 NonCommercial
+You may not use the material for commercial purposes. This includes:
+- Selling copies of the content
+- Using in paid courses or training materials
+- Incorporating into commercial products or services
+- Using for profit-generating activities
+
+### 🔄 ShareAlike
+If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+## Additional Terms for This Repository:
+
+### ✍️ Handwritten Notes Protection
+The handwritten notes in the `Handwritten_Notes/` folder are personal learning artifacts and are subject to additional restrictions:
+- **Personal Use Only**: These notes may be referenced for personal learning
+- **No Reproduction**: Handwritten notes may not be copied, scanned, or reproduced in any form
+- **No Redistribution**: Handwritten notes may not be shared on other platforms or repositories
+- **Educational Reference**: You may reference concepts from these notes with proper attribution
+
+### 🧠 Analogies and Original Content
+The analogies and story-based explanations in `DevOps_Analogies/` are original creative works:
+- **Attribution Required**: Always credit the original creator when referencing
+- **Personal Voice**: These represent personal learning experiences and perspectives
+- **No Verbatim Copying**: Adapt and reference, don't copy word-for-word
+
+### 🤝 Community Guidelines
+
+#### ✅ Encouraged Uses:
+- Learning and education
+- Teaching others with attribution
+- Creating derivative educational content
+- Referencing in blog posts or articles (with credit)
+- Using as inspiration for your own learning journey
+- Sharing with study groups or learning communities
+
+#### ❌ Prohibited Uses:
+- Claiming authorship of original analogies or content
+- Using in commercial training programs
+- Selling or monetizing the content
+- Removing attribution or copyright notices
+- Using handwritten notes in other repositories or platforms
+- Creating competing commercial products
+
+### 📞 Contact for Commercial Use
+If you wish to use this content for commercial purposes, please contact:
+- **Email**: [your.email@domain.com]
+- **LinkedIn**: [Your LinkedIn Profile]
+- **Twitter**: [Your Twitter Handle]
+
+### 🔧 Technical Implementation Note
+This license applies to:
+- All README files and documentation
+- Code examples and snippets
+- Original analogies and explanations
+- Visual diagrams and illustrations
+- Handwritten notes and personal artifacts
+
+For code snippets that implement standard practices or common commands, standard open-source principles apply, but attribution is still appreciated.
+
+## Full License Text
+
+This is a human-readable summary of (and not a substitute for) the [full license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
+### Disclaimer
+**No warranties are given.** The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
+---
+
+## Why This License?
+
+This license was chosen to:
+1. **Encourage Learning**: Make content freely available for educational use
+2. **Prevent Exploitation**: Protect against commercial misuse without attribution
+3. **Maintain Quality**: Ensure derivative works maintain the same open standards
+4. **Build Community**: Foster a sharing culture in the DevOps learning community
+5. **Protect Investment**: Acknowledge the time and effort put into creating original content
+
+---
+
+**License Version**: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International  
+**License URL**: https://creativecommons.org/licenses/by-nc-sa/4.0/  
+**Last Updated**: 21/July/2025
+
+*"Knowledge shared is knowledge multiplied, but credit where credit is due."*

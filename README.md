@@ -157,6 +157,6 @@ Happy Learning! 🚀
 ---
 
 **Last Updated**: $(date)
-**Repository Stats**: ![GitHub stars](https://img.shields.io/github/stars/yourusername/devops-learning-journey?style=social) ![GitHub forks](https://img.shields.io/github/forks/yourusername/devops-learning-journey?style=social)
+
 
 *"Making DevOps accessible, one analogy at a time."*
