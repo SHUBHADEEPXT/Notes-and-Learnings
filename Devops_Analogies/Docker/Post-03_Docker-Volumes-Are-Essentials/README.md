@@ -67,3 +67,4 @@ Stored DB inside the container
 - Like a defence family on the move — know what must survive
 
 
+![Docker Volumes Analogy](../../images/docker-volumes-essentials.png)
