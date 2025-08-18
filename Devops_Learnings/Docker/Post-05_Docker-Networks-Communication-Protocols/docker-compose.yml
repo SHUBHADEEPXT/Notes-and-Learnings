@@ -1,0 +1,44 @@
+version: "3.9"
+
+networks:
+  public_web:
+  internal_api:
+  database_secure:
+
+services:
+  frontend:
+    image: nginx:alpine
+    container_name: frontend
+    ports:
+      - "3000:80"          # exposed to users
+    networks:
+      - public_web
+      - internal_api
+    depends_on:
+      - backend
+
+  backend:
+    image: node:18-alpine
+    container_name: backend
+    command: sh -c "npm -v && node -e 'console.log(\"api up\")' && tail -f /dev/null"
+    networks:
+      - internal_api
+      - database_secure
+    depends_on:
+      - database
+
+  database:
+    image: postgres:16-alpine
+    container_name: database
+    environment:
+      POSTGRES_PASSWORD: example
+      POSTGRES_USER: app
+      POSTGRES_DB: appdb
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - database_secure     # no public_web; no ports
+    # no ports: DB is private and ONLY reachable by backend
+
+volumes:
+  db_data:
