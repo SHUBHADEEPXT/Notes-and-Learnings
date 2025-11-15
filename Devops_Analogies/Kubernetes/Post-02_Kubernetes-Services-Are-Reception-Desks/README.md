@@ -24,7 +24,7 @@ But everything worked smoothly because of one thing:
 
 ## 🔁 Mapping to Kubernetes
 
-| Real World Concept         | Kubernetes Equivalent             |
+| Real World Concept         | Kubernetes Equivalent              |
 |----------------------------|------------------------------------|
 | Reception Desk             | Kubernetes **Service**             |
 | Families in Flats          | **Pods** (containers inside)       |
@@ -71,7 +71,7 @@ BACKEND_URL=http://backend-service:8080
 
 ## 🚪 Service Types Explained
 
-| Type         | Use Case                                 |
+| Type         | Use Case                                  |
 |--------------|-------------------------------------------|
 | ClusterIP    | Internal-only communication (default)     |
 | NodePort     | Expose service on a specific port         |
@@ -80,7 +80,6 @@ BACKEND_URL=http://backend-service:8080
 ---
 
 ## 🛠️ Selector = Smart Visitor Routing
-
 ```yaml
 selector:
   department: signals
@@ -90,6 +89,7 @@ selector:
 - Kubernetes uses label selectors like a guard searching the registry: “Route me to any Pod that matches this!”
 
 ---
+
 ## 🔥 Real 2 AM Disaster I Fixed
 
 - ❌ Hardcoded Pod IP in `BACKEND_URL`
@@ -114,14 +114,14 @@ selector:
 ## 🧵 Related Posts
 
 - 🐦 Twitter Thread: [@XT1396](https://x.com/XT1396)  
-- 📎 LinkedIn Post: *Kubernetes Services = Reception Desk*
+- 📎 LinkedIn Post: 
 
 ---
 
 ## 🧠 Bonus Analogy
 
-| Reception Scenario                      | K8s Networking Equivalent         |
-|----------------------------------------|----------------------------------|
+| Reception Scenario                      | K8s Networking Equivalent        |
+|----------------------------------------|-----------------------------------|
 | “I’m here to meet Captain Sharma”       | Service receives traffic request |
 | Guard checks the registry               | Service uses label selector      |
 | Captain moves flats                     | Pod IP changes                   |
